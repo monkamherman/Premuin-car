@@ -1,5 +1,6 @@
 import SEO from '@/components/custom/utils/SEO'
 import React from 'react'
+import Hero from './components/Hero'
 
 const Home: React.FC = () => {
     return (
@@ -12,7 +13,7 @@ const Home: React.FC = () => {
 
             {/* App Comoments */}
             <>
-                Home
+                <Hero />
             </>
         </>
     )
