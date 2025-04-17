@@ -5,6 +5,7 @@ import Catalogue from './components/Catalogue'
 import Services from './components/Services'
 import FAQ from './components/FAQ'
 import Contact from './components/Contact'
+import Testimonials from './components/Testimonial'
 
 const Home: React.FC = () => {
     return (
@@ -21,6 +22,7 @@ const Home: React.FC = () => {
                 <Catalogue />
                 <Services />
                 <FAQ />
+                <Testimonials />
                 <Contact />
             </>
         </>

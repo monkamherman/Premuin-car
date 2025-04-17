@@ -13,7 +13,29 @@ const Services: React.FC = () => {
         "Service discret et professionnel"
       ]
     },
-    // ... autres services
+    
+  {
+    icon: "fa-car-alt",
+    title: "Location Sans Chauffeur",
+    description: "Louez nos véhicules premium en toute liberté pour vos déplacements personnels ou professionnels.",
+    features: [
+      "Assurance tous risques incluse",
+      "Kilométrage illimité",
+      "Livraison possible sur demande",
+      "Service 24h/24 et 7j/7"
+    ]
+  },
+  {
+    icon: "fa-calendar-star",
+    title: "Événements Spéciaux",
+    description: "Service premium pour mariages, anniversaires, soirées d'entreprise et autres occasions spéciales.",
+    features: [
+      "Flotte dédiée pour événements",
+      "Décoration personnalisable",
+      "Service sur mesure",
+      "Photos souvenirs offertes"
+    ]
+  }
   ];
 
   return (

@@ -16,7 +16,38 @@ const FAQ: React.FC = () => {
         "D'un justificatif de domicile de moins de 3 mois pour les locations sans chauffeur"
       ]
     },
-    // ... autres questions
+    {
+      id: 2,
+      question: "Quelle est la différence entre avec et sans chauffeur ?",
+      answer: "",
+      items: [
+        "Avec chauffeur : Vous bénéficiez d'un conducteur professionnel qui prend en charge tous vos déplacements. Idéal pour les événements, déplacements professionnels ou si vous préférez ne pas conduire.",
+        "Sans chauffeur : Vous conduisez vous-même le véhicule. Vous avez toute liberté de mouvement mais êtes responsable du véhicule pendant la durée de la location."
+      ]
+    },
+    {
+      id: 3,
+      question: "Quelles sont les options d'assurance proposées ?",
+      answer: "Nous proposons plusieurs niveaux de protection :",
+      items: [
+        "Assurance de base : incluse dans tous nos tarifs (franchise de 1500€)",
+        "Assurance premium : réduit la franchise à 500€ (+15€/jour)",
+        "Assurance zéro risque : franchise à 0€ (+25€/jour)",
+        "Pour les locations avec chauffeur, l'assurance complète est incluse."
+      ]
+    },
+    {
+      id: 4,
+      question: "Puis-je annuler ou modifier ma réservation ?",
+      answer: "Oui, vous pouvez annuler ou modifier votre réservation selon les conditions suivantes :",
+      items: [
+        "Annulation plus de 48h avant : remboursement intégral",
+        "Annulation entre 24h et 48h avant : 50% du montant retenu",
+        "Annulation moins de 24h avant : pas de remboursement",
+        "Les modifications sont gratuites jusqu'à 24h avant la location, sous réserve de disponibilité."
+      ]
+    }
+    
   ];
 
   return (
