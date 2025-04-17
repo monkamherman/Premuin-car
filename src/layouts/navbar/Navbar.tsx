@@ -1,7 +1,7 @@
 // components/Navbar.js
 import React from 'react';
 
-const Navbar = () => {
+const Navbar:React.FC = () => {
   return (
     <nav className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

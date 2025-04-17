@@ -1,6 +1,7 @@
 import SEO from '@/components/custom/utils/SEO'
 import React from 'react'
 import Hero from './components/Hero'
+import Catalogue from './components/Catalogue'
 
 const Home: React.FC = () => {
     return (
@@ -14,6 +15,7 @@ const Home: React.FC = () => {
             {/* App Comoments */}
             <>
                 <Hero />
+                <Catalogue />
             </>
         </>
     )

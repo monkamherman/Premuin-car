@@ -1,8 +1,6 @@
 // components/CarCard.js
 import React from 'react';
 
-import React from 'react';
-
 interface Car {
   type: string;
   price: number;
@@ -34,7 +32,7 @@ const CarCard: React.FC<CarCardProps> = ({ car }) => {
             <p className="text-gray-600">{car.type}</p>
           </div>
           <div className="text-right">
-            <span className="text-2xl font-bold text-blue-600">€{car.price}</span>
+            <span className="text-2xl font-bold text-blue-600">{car.price} cfa</span>
             <span className="block text-sm text-gray-500">/jour</span>
           </div>
         </div>
