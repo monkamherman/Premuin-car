@@ -3,6 +3,8 @@ import React from 'react'
 import Hero from './components/Hero'
 import Catalogue from './components/Catalogue'
 import Services from './components/Services'
+import FAQ from './components/FAQ'
+import Contact from './components/Contact'
 
 const Home: React.FC = () => {
     return (
@@ -18,6 +20,8 @@ const Home: React.FC = () => {
                 <Hero />
                 <Catalogue />
                 <Services />
+                <FAQ />
+                <Contact />
             </>
         </>
     )
