@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   mode: 'jit',
-  darkMode: ['class'],
+  darkMode: false,
   content: ['./index.html', './src/**/*.{ts,tsx,js,jsx}'],
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   theme: {
   	container: {
   		center: true,
